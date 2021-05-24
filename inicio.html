@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+        
+        <title>BrightStart</title>
+    </head>
+     <div id="myNav" class="overlay">
+
+
+        <!--overlay close button-->
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!--overlay content -->
+        <div class="overlay-content">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="oquee.html">O que e BrightStart?</a></li>
+                <li><a href="vantagens.html">Vantagens</a></li>
+                <li><a href="Inscrever.html">Inscrever</a></li>
+                <li><a href="Expriencia dos alunos.html">Expriencia dos alunos</a></li>
+                <li><a href="Viseu.html">Contactos</a></li>
+            </ul>
+        </div>
+    </div>
+ <!--overlay Open button-->
+    <div class="navMenu" onclick="openNav()"><i class="fa fa-bars" style="color:white"></i></div>
+    <div class="myPage">
+
+<div class="row">
+  <div class="column1">
+  <img src="1foto2.png" alt="rapaz mascara"  width="100%" height="auto">
+  </div>
+  <div class="column2">
+   <img src="Deloitte-logo-4.png" alt="Simbolo de deloitte" width="450px" height="84px">
+	<br></br>
+	  <br></br>
+	   <h1 class="Titulo" > O futuro pode ser brilhante</font> </h1><br>
+    <p class="Texto"><b>BrightStart</b> uma iniciativa de aceleração de competências na área das Tecnologias Informáticas, que permite aos finalistas do ensino secundário adquirirem, enquanto estudam, conhecimentos práticos em ambiente real de trabalho. Neste momento, está presente no Instituto Politécnico de Setúbal, Leiria e Viseu.</font></p>
+  </div>
+</div>
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+	<script>
+        /* Open */
+        function openNav(){
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        // close 
+        function closeNav(){
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
