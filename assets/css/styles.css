@@ -1,0 +1,143 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+/* Nav button */
+.navMenu{
+  position: absolute;
+  width: 650px;
+  height: 40px;
+  top: 30px;
+  right: 30px;
+  font-size: 50px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+/* overlay (background) */
+.overlay{
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999999;
+  left: 0;
+  top: 0;
+ 
+  background-color: rgba(0,0,0,0.9);
+  overflow-y: hidden;
+  transform: 0.5s;
+}  /* Hight and Width depends on how you want to reveal the overlay ( see Js code ) */
+
+
+/* Close Button */
+.closebtn{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: rgb(255,255,255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+
+/* Position the content inside the overlay */
+.overlay-content{
+  position: relative;
+  top: 15%;
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+
+}
+.overlay-content li{
+  margin: 7px;
+  padding: 10px;
+}
+.overlay-content li a{
+  color: #fff;
+  font-size: 30px;
+  font-family: helvetica;
+  margin: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Menu Hover Effect */
+
+.overlay-content a:hover,
+.overlay-content a:focus{
+  color: rgb(255,255,255) !important;
+  background: rgb(56,98,179);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+
+}
+
+.column1{
+
+  top: 0;
+  left: 0;
+  float: left;
+  width: 70%;
+
+	
+}
+.column2{
+  padding: 30px;
+ float: right;
+  width: 25%; 
+
+}
+@media only screen and (max-width: 1200px) {
+ .column2{
+    float: left;
+   width: 100%; 
+  }
+.column1{
+width: 100%;
+}
+}
+.Titulo{
+  font-family:"helvetica";
+  font-size:34px;
+}
+.Texto{
+  font-family:"helvetica";
+  font-size:24px;
+}
+i {
+  margin-right: 50px;
+ 
+}
+.butao{
+  background-color: #0D3B86;
+  border: none;
+  color: white;
+  padding: 10px 120px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input {
+    width: 400px;
+    padding: 0 20px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
