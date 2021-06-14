@@ -14,6 +14,7 @@ body, html {
   font-size: 50px;
   font-weight: 500;
   cursor: pointer;
+z-index: 3;
 
 }
 
@@ -25,8 +26,8 @@ body, html {
   z-index: 9999999;
   left: 0;
   top: 0;
+  background-color: rgba(61,101,185,0.6);
  
-  background-color: rgba(0,0,0,0.9);
   overflow-y: hidden;
   transform: 0.5s;
 }  /* Hight and Width depends on how you want to reveal the overlay ( see Js code ) */
@@ -50,7 +51,7 @@ body, html {
   top: 15%;
   margin: 20px;
   width: 100%;
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
 
 }
@@ -72,7 +73,6 @@ body, html {
 .overlay-content a:hover,
 .overlay-content a:focus{
   color: rgb(255,255,255) !important;
-  background: rgb(56,98,179);
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
@@ -101,22 +101,62 @@ body, html {
 
 }
 .column3{
-position:absolute;
-top:31%;
+position:fixed;
+top:25%;
 left:73.4%;
 transform:translate(0%,-50%);
 -ms-transform:translate(-0%,-50%)
 padding: 30px;
   width: 25%; 
 }
+.aolado{
+   font-size: 43px;
+	font-family: helvetica;
+	 font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+position:absolute;top:1.3%;right:37%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)
+}
+
 
 @media only screen and (max-width: 1200px) {
  .column2{
     float: left;
-   width: 100%; 
+   width: 96%; 
   }
 .column1{
 width: 100%;
+
+}
+.column3{
+position:absolute;
+top:105%;
+left:5.4%;
+transform:translate(0%,-50%);
+-ms-transform:translate(-0%,-50%)
+padding: 30px;
+  width: 45%; 
+float: left;
+}
+.navMenu{
+  position: absolute;
+  width: 65px;
+  height: 40px;
+  top: 30px;
+  right: 30px;
+  font-size: 50px;
+  font-weight: 500;
+  cursor: pointer;
+z-index: 3;
+
+}
+.aolado{
+   font-size: 43px;
+	font-family: helvetica;
+	 font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+position:absolute;top:1.2%;right:12%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)
 }
 }
 .Titulo{
@@ -156,3 +196,21 @@ input::-webkit-input-placeholder {
   font-family:"helvetica";
   font-size:34px;
 }
+.textomenu{
+color: #fff;
+  opacity: 0.5;
+  font-size: 60px;
+  font-family: helvetica;
+  margin: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.textomenuslide{
+color: #fff;
+  font-size: 65px;
+  font-family: helvetica;
+  margin: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+

@@ -21,14 +21,12 @@
 
         <!--overlay content -->
         <div class="overlay-content">
-            <ul>
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="oquee.html">O que e BrightStart?</a></li>
-                <li><a href="vantagens.html">Vantangens</a></li>
-                <li><a href="Inscrever.html" style="color:DodgerBlue;">Inscrever</a></li>
-                <li><a href="Expriencia dos alunos.html">Expriencia dos alunos</a></li>
-                <li><a href="Viseu.html">Contactos</a></li>
-            </ul>
+             <a  class="textomenu" href="inicio.html">Inicio</a><br><br>
+                <a class="textomenu" href="oquee.html">O que e BrightStart?</a><br><br>
+                <a class="textomenu" href="vantagens.html">Vantagens</a><br><br>
+               <a class="textomenuslide"  href="Inscrever.html">Inscrever</a><br><br>
+                <a class="textomenu" href="Expriencia dos alunos.html">Expriencia dos alunos</a><br><br>
+                <a class="textomenu" href="Viseu.html">Contactos</a><br><br>
         </div>
     </div>
  <!--overlay Open button-->
@@ -43,23 +41,24 @@
    <img src="assets/fotos/Deloitte.svg" alt="Simbolo de deloitte" width="auto" height="100px">
 	<br></br>
 	   <h1 class="Titulo"> Ainda vais a tempo para te inscrever </h1>
-		<br></br><br>
- 		 <label class="Texto" >Nome:</label><br>
-  		 <input type="text" placeholder="Name"><br><br>
-		<label class="Texto" for="Name">Data de Nascimento:</label><br>
-  		 <input  placeholder="DD-MM-YYYY"><br><br>
+		<form>
+ 		 <label class="Texto"  >Nome:</label><br>
+  		 <input type="text" name="name" id="name" required placeholder="Name"><br><br>
+		<label class="Texto">Data de Nascimento:</label><br>
+  		 <input type="date" name="date" id="date" placeholder="DD-MM-YYYY"><br><br>
 		<label class="Texto" for="Name">E-mail:</label><br>
-  		 <input  placeholder="E-mail" class="placeholder" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" ><br><br>
+  		 <input  placeholder="E-mail" class="placeholder" type="email" name="email" id="email" required ><br><br>
 		<label class="Texto">Morada:</label><br>
-  		 <input  placeholder="Morada"><br><br>
+  		 <input  placeholder="Morada" required ><br><br>
 		<label class="Texto" ">Código-Postal:</label><br>
-  		 <input  placeholder="Código-Postal"><br><br>
+  		 <input  placeholder="Código-Postal" required ><br><br>
 		<label class="Texto" >Numero de Telemovel:</label><br>
-  		 <input  placeholder="Numero de Telemovel"><br><br>
+  		 <input  placeholder="Numero de Telemovel" type="tel" name="phone" id="phone" required ><br><br>
   		
   		<input type="submit" class="butao">
 </form>
    </div>
+<p class="aolado">Inscrever</p>
 </div>
         <!-- ===== IONICONS ===== -->
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>

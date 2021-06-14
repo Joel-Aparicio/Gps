@@ -1,6 +1,6 @@
 
-.w3-left{float:left!important;font-size:58px;background-color:transparent;font-family: "Lucida Console";}.w3-right{float:right!important;font-size:58px;display:inline-block;font-family: "Lucida Console";
-	cursor:pointer;	text-decoration:none;	background-color:transparent;}
+
+
 .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .w3-display-right{position:absolute;top:50%;right:30%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
@@ -11,7 +11,3 @@
 
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
 
-@media only screen and (max-width: 1200px) {
-.w3-display-right{position:absolute;top:30%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
-.w3-display-left{position:absolute;top:30%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
-}
