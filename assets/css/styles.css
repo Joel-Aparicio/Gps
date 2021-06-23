@@ -167,6 +167,11 @@ position:absolute;top:1.2%;right:12%;transform:translate(0%,-50%);-ms-transform:
   font-family:"helvetica";
   font-size:24px;
 }
+.Textox{
+    opacity: 0.7;
+  font-family:"helvetica";
+  font-size:20px;
+}
 i {
   margin-right: 50px;
  
@@ -179,6 +184,7 @@ i {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+ width :93.5%
 }
 
 input {

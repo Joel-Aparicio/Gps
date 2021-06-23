@@ -1,7 +1,7 @@
 
 
 
-.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%) }
 .w3-display-right{position:absolute;top:50%;right:30%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .w3-btn:hover{ 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
